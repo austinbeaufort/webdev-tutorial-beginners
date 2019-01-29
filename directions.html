@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>My Page!</title>
+        <style>
+            body {
+                font-family: Helvetica, Arial, sans-serif;
+            }
+            ul {
+                margin: 0;
+                padding: 0;
+                list-style-type: none;
+            }
+            li {
+                display: inline-block;
+                background-color: gray;
+                border-radius: 3px;
+                padding: 2px;
+                margin-left: 20px;
+            }
+
+            li:hover {
+                background-color: orange;
+            }
+
+            li:first-child {
+                margin-left: 0px;
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }
+
+            section.feature-box {
+                display: flex;
+            }
+
+            .feature-box div {
+                width: 100%;
+                margin: 1px;
+            }
+            .feature-box.sales div {
+                background: gray;
+            }
+
+            .feature-box.closeouts div {
+                background: red;
+            }
+
+        </style>
+
+    </head>
+    <body>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="locations.html">Locations</a></li>
+            <li><a href="contacts.html">Contact</a></li>
+            <li><a href="directions.html">Directions</a></li>
+        </ul>
+    <section class="feature-box sales">
+        <div>Section a</div>
+        <div>Section b</div>
+        <div>Section c</div>
+    </section>       
+    <section class="feature-box closeouts">
+        <div>Section d</div>
+        <div>Section e</div>
+    </section>
+    </body>
+</html>

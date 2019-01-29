@@ -1,0 +1,81 @@
+body {
+    background: rgb(42, 42, 42);
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: black;
+    background-image: url('images/bread.jpg');
+    background-size: 100%;
+    background-position: center;
+    padding: 20px;
+    height: 400px;
+    text-align: center;
+}
+
+header a {
+    margin-top: 40px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    padding: 10px;
+    background: rgba(168, 35, 23, 0.8);
+}
+
+header .logo a {
+    background: rgba(255, 255, 255, 0.8);
+    background-image: url('images/logo.png');
+    background-size: 300px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 300px;
+    text-indent: -999999px;
+    height: 80px;
+    top: -40px;
+    position: relative;
+}
+.features {
+    background: white;
+    color: rgb(75, 75, 75);
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.features figure {
+    margin: auto;
+    width: 100px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.features figure img {
+    box-shadow: gray 0 0 10px;
+    border: 1px solid white;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+footer {
+    background: black;
+    padding: 20px;
+    color: gray;
+    text-align: center;
+    font-size: 12px;
+}
+
